@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_snc_helloapp.script2</api_name>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>script2</name>
+        <script><![CDATA[var script2 = Class.create();
+script2.prototype = {
+    initialize: function() {
+    },
+
+    type: 'script2'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-29 18:33:56</sys_created_on>
+        <sys_id>7209a11653123300cf70ddeeff7b12ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>script2</sys_name>
+        <sys_package display_value="helloapp" source="x_snc_helloapp">b2f2ed9613923300027879d96144b0a1</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="helloapp">b2f2ed9613923300027879d96144b0a1</sys_scope>
+        <sys_update_name>sys_script_include_7209a11653123300cf70ddeeff7b12ee</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-29 18:33:56</sys_updated_on>
+    </sys_script_include>
+</record_update>
